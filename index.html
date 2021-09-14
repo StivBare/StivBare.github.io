@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/jpg" href="./images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <title>Stiv Bare</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top" aria-label="Navbar" style="background-color: transparent;">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown" aria-controls="dropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-md-center" id="dropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./files/Stiv Bare Resume.pdf" target="_blank">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <section id="about">
+      <div>
+        <h1>Stiv Bare</h1>
+        <h3 class="about-me">
+          <strong>
+            I am a software-developer at <a href="https://www.sunx.biz/" target="_blank">SunX</a> currently located in Myrtle Beach, SC.
+          </strong>
+        </h3>
+        <br>
+        <h3>
+          <strong>
+            I graduated from Coastal Carolina University with a B.S. in Business Administration.
+          </strong>
+        </h3>
+        <br>
+        <h3>
+          <strong>
+            I enjoy working with a variety of tools. Here are some of my favorites:
+          </strong>
+        </h3>
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex justify-content-around">
+                <img class="carousel-icon" src="./images/python-icon.png" alt="python-icon">
+                <img class="carousel-icon" src="./images/javascript-icon.png" alt="javascript-icon">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-around">
+                <img class="carousel-icon" src="./images/react-icon.png" alt="react-icon">
+                <img class="carousel-icon" src="./images/django-icon.png" alt="django-icon">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-around">
+                <img class="carousel-icon" src="./images/node-icon.png" alt="node-icon">
+                <img class="carousel-icon" src="images/bootstrap-icon.png" alt="bootstrap-icon">
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h1>Projects</h1>
+      <div class="card text-white text-center col-md-6 m-auto" style="background-color: black; max-width: 75%;">
+        <div class="card-header mb-3">
+          <strong>React Chess App</strong>
+        </div>
+        <img class="chess-gif" src="./images/chess-app.gif" alt="chess gif">
+        <div class="card-body">
+          The current project I am working on is a React chess app. I am using React Chessground
+          for the UI and Chess.js for move validation. The app will also feature Google Authentication,
+          multiplayer via web sockets, and stat tracking.
+        </div>
+        <div class="card-footer">
+          <a class="github-link" href="https://github.com/StivBare/Chess-Game" target="_blank">
+            <img class="github-icon" src="./images/github-icon.png" alt="github-icon">
+            <h4><strong>Source Code</strong></h4>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h1>Contact Me!</h1>
+      <div class="links-container">
+        <div>
+          <a class="links" href="mailto: stivbare@gmail.com" target="_blank">
+            <h2>E-Mail</h2>
+            <img class="links-image" src="./images/mail-icon.png" alt="mail-icon">
+          </a>
+        </div>
+        <div>
+          <a class="links" href="https://github.com/StivBare/" target="_blank">
+            <h2 class="link">Github</h2>
+            <img class="links-image" src="./images/github-icon.png" alt="github-icon">
+          </a>
+        </div>
+        <div>
+          <a class="links" href="https://www.linkedin.com/in/stivbare/" target="_blank">
+            <h2>LinkedIn</h2>
+            <img class="links-image" src="./images/linkedin-icon.png" alt="github-icon">
+          </a>
+        </div>
+      </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
