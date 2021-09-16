@@ -7,10 +7,22 @@ body {
 
 #about {
     height: 100%;
-    margin: 0;
     color: #e7e6e1;
-    text-align: center;
     padding-top: 0.5rem;
+}
+
+.about-block {
+    width: 80%;
+    margin: auto;
+}
+
+.bitmoji {
+    width: 250px;
+    border-radius: 100%;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 h3 {
@@ -134,5 +146,14 @@ a h2 {
     .links-image {
         max-height: 60px;
         max-width: 60px;
+    }
+    .bitmoji {
+        text-align: center;
+        float: none;
+        width: 200px;
+        margin-right: 0;
+    }
+    .about-block {
+        text-align: center;
     }
 }
